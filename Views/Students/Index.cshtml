@@ -1,0 +1,169 @@
+﻿@model List<PostMidProject.Students>
+
+@{
+    var pager = new PostMidProject.Models.Pager();
+    int pageNo = 0;
+    int pageSize = 0;
+    if (ViewBag != null)
+    {
+        pageSize = ViewBag.PageSize;
+        pager = ViewBag.Pager;
+        pageNo = pager.CurrentPage;
+    }
+}
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Students</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/js/main.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/addstudent.css">
+    <link rel="stylesheet" href="~/css/studentprofile.css">
+    <link rel="stylesheet" href="~/css/studentslist.css">
+</head>
+<body>
+    
+
+    <div class="wrapper d-flex align-items-stretch">
+        <nav id="sidebar">
+            <div class="custom-menu">
+            </div>
+            <div class="img bg-wrap text-center py-4" style="background-color: #495057">
+                <div class="user-logo">
+                    <h3 class="name-title">Admin</h3>
+                </div>
+            </div>
+            <ul class="list-unstyled components mb-5">
+                <li class="active">
+                    <a href="/Students/Index"><span class="fa fa-home mr-3"></span> View Students</a>
+                </li>
+
+                <li>
+                    <a href="/Students/AddStudents"><span class="fa fa-home mr-3"></span> Add Student</a>
+                </li>
+                
+                <li>
+                    <a href="/Students/Dashboard"><span class="fa fa-trophy mr-3"></span> Dashboard</a>
+                </li>
+                <li>
+                    <a href="/Login/Index"><span class="fa fa-sign-out mr-3"></span> Log Out</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content" class="p-4 p-md-5 pt-5">
+            <div class="table-container">
+                <div class="page">
+                    <div class="paging">
+                        <form id="pageSizeForm" method="post" action="/Students/Index">
+                            <div class="form-group">
+
+                                <select class="form-input page" name="pageSize" id="pageSize" onchange="submitPageSize()">
+                                    <option value="5" @(ViewBag.PageSize == 5 ? "selected" : "")>5</option>
+                                    <option value="10" @(ViewBag.PageSize == 10 ? "selected" : "")>10</option>
+                                    <option value="25" @(ViewBag.PageSize == 25 ? "selected" : "")>25</option>
+                                    <option value="50" @(ViewBag.PageSize == 50 ? "selected" : "")>50</option>
+                                    <option value="75" @(ViewBag.PageSize == 75 ? "selected" : "")>75</option>
+                                    <option value="100" @(ViewBag.PageSize == 100 ? "selected" : "")>100</option>
+
+                                </select>
+
+                                <input type="hidden" name="submitted" value="true">
+                            </div>
+                        </form>
+
+                        </div>
+                  <div class="pagination">
+                            @if (pager.CurrentPage > 1)
+                            {
+
+                            <a href="/Students/Index?pageNumber=1&pageSize=@pageSize" style="font-size:40px; cursor:pointer; margin: 0 5px;">&#171;</a>
+                            
+                            <a href="/Students/Index?pageNumber=@(pager.CurrentPage - 1)&pageSize=@pageSize" style="font-size:40px; cursor:pointer">&#8249;</a>
+
+                            }
+                            &nbsp;&nbsp;
+                            <span id="pageInfo" style="font-size:20px">@pageNo of @pager.TotalPages</span>
+                             &nbsp;&nbsp;
+                            @if (pager.CurrentPage < pager.TotalPages)
+                            {
+
+                            <a href="/Students/Index?pageNumber=@(pager.CurrentPage + 1)&pageSize=@pageSize" style="font-size:40px; cursor:pointer">&#8250;</a>
+
+                            <a href="/Students/Index?pageNumber=@(pager.TotalPages)&pageSize=@pageSize" style="font-size:40px; cursor:pointer">&#187;</a>
+
+                            }
+                  </div>
+					
+                </div>
+                <div class="table-wrapper">
+                    <table class="points">
+                        <thead>
+                            <tr>
+                                <th style="color:white;"><a id="sortByIdAsc" href="/Students/Index?sortColumn=Id&sortOrder=asc&pageNumber=@pageNo&pageSize=@pageSize" style=" cursor: pointer; color:lightgray">▲</a> ID <a id="sortByIdDesc" href="/Students/Index?sortColumn=Id&sortOrder=desc&pageNumber=@pageNo&pageSize=@pageSize" style="cursor: pointer; color:lightgray">▼</a></th>
+                                <th style="color:white;"><a id="sortByNameAsc" href="/Students/Index?sortColumn=Name&sortOrder=asc&pageNumber=@pageNo&pageSize=@pageSize" style="cursor: pointer; color:lightgray">▲</a> Name <a id="sortByNameDesc" href="/Students/Index?sortColumn=Name&sortOrder=desc&pageNumber=@pageNo&pageSize=@pageSize" style="cursor:pointer; color:lightgray">▼</a></th>
+                                <th style="color:white;"><a id="sortByRollNoAsc" href="/Students/Index?sortColumn=rollno&sortOrder=asc&pageNumber=@pageNo&pageSize=@pageSize" style="cursor: pointer; color:lightgray ">▲</a> Roll No <a id="sortByRollNoDesc" href="/Students/Index?sortColumn=rollno&sortOrder=desc&pageNumber=@pageNo&pageSize=@pageSize" style="cursor: pointer; color:lightgray">▼</a></th>
+                                <th style="color:white;"><a id="sortByDepAsc" href="/Students/Index?sortColumn=department&sortOrder=asc&pageNumber=@pageNo&pageSize=@pageSize" style="cursor: pointer; color:lightgray">▲</a> Department <a id="sortByDepDesc" href="/Students/Index?sortColumn=department&sortOrder=desc&pageNumber=@pageNo&pageSize=@pageSize" style="cursor: pointer; color:lightgray">▼</a></th>
+                                <th style="color:white;"><a id="sortByDegAsc" href="/Students/Index?sortColumn=degree&sortOrder=asc&pageNumber=@pageNo&pageSize=@pageSize" style="cursor: pointer; color:lightgray">▲</a> Degree <a id="sortByDegDesc" href="/Students/Index?sortColumn=degree&sortOrder=desc&pageNumber=@pageNo&pageSize=@pageSize" style=" cursor: pointer; color:lightgray">▼</a></th>
+                                <th style="color:white;"><a id="sortByDOBAsc" href="/Students/Index?sortColumn=dob&sortOrder=asc&pageNumber=@pageNo&pageSize=@pageSize" style="cursor: pointer;color:lightgray ">▲</a> DOB <a id="sortByDOBDesc" href="/Students/Index?sortColumn=dob&sortOrder=desc&pageNumber=@pageNo&pageSize=@pageSize" style="cursor: pointer; color:lightgray">▼</a></th>
+                                <th style="color:white;"><a id="sortByCityAsc" href="/Students/Index?sortColumn=city&sortOrder=asc&pageNumber=@pageNo&pageSize=@pageSize" style="cursor: pointer;color:lightgray ">▲</a> City <a id="sortByCityDesc" href="/Students/Index?sortColumn=city&sortOrder=desc&pageNumber=@pageNo&pageSize=@pageSize" style="cursor: pointer; color:lightgray">▼</a></th>
+                                <th style="color:white;"><a id="sortByIntAsc" href="/Students/Index?sortColumn=interests&sortOrder=asc&pageNumber=@pageNo&pageSize=@pageSize" style="cursor: pointer;color:lightgray ">▲</a> Interests <a id="sortByIntDesc" href="/Students/Index?sortColumn=interests&sortOrder=desc&pageNumber=@pageNo&pageSize=@pageSize" style="cursor: pointer;color:lightgray">▼</a></th>
+                                <th style="color:white;">Actions</th>
+
+                            </tr>
+                          </thead>
+
+                        <tbody>
+                            @{
+                                int sequence = 1; // Initialize a sequence counter
+                            }
+                            @foreach (var student in Model)
+                            {
+                                <tr>
+                                    <td>@sequence</td>
+                                    <td>@student.FullName</td>
+                                    <td>@student.RollNo</td>
+                                    <td>@student.Department</td>
+                                    <td>@student.Degree</td>
+                                    <td>@student.DateOfBirth.ToString("dd/MM/yyyy")</td>
+                                    <td>@student.City</td>
+                                    <td>@student.Interest</td>
+                                    <td>
+                                        <a href="/Students/EditStudents?rollNo=@student.RollNo" style="color:black">Edit</a> |
+                                        <a href="/Students/StudentProfile?rollNo=@student.RollNo" style="color:black">View</a> |
+                                        @using (Html.BeginForm("DeleteStudent", "Students", new { id = student.Id }, FormMethod.Post))
+                                        {
+                                            @Html.Hidden("id", student.Id)
+                                            <button class="btn-arrow" style="font-size:17px" type="submit">Delete</button>
+                                        }
+
+                                    </td>
+                                </tr>
+                                sequence++;
+
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+@*     <script src="js/jquery.minjs"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script> *@
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ 
+
+    
+</body>
+</html>
+

@@ -1,0 +1,45 @@
+﻿body {
+    font-family: sans-serif;
+    margin: 20px;
+    overflow: hidden;
+    width:100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom:30px;
+}
+
+.element-container {
+    padding: 20px;
+    margin: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Adjust for specific chart and table sizes as needed */
+.chart-container {
+    width: 300px;
+    height: 250px;
+}
+#studentdatatable{
+    width:50px;
+}
+
+.table-container {
+    width: 400px;
+}
+
+.list-container {
+    width: 200px;
+    height: 150px;
+    overflow-y: auto;
+    margin-right: 30px;
+}
+
+#distinctInterests{
+    font-size:30px;
+}

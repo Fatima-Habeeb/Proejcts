@@ -1,0 +1,312 @@
+﻿ @model PostMidProject.Students
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    @*      <link rel="stylesheet" href="~/css/dashboard.css"> *@
+    <link rel="stylesheet" href="~/css/addstudent.css">
+    <link rel="stylesheet" href="~/css/studentprofile.css">
+
+</head>
+<body>
+
+    <div class="wrapper d-flex align-items-stretch">
+        <nav id="sidebar">
+            <div class="custom-menu">
+            </div>
+            <div class="img bg-wrap text-center py-4" style="background-color: #495057">
+                @* <div class="user-logo">
+                    <h3>@Model.FullName</h3>
+                </div> *@
+            </div>
+            <ul class="list-unstyled components mb-5">
+                <li class="active">
+                    <a href="/StudentProfile/Index"><span class="fa fa-home mr-3"></span> Profile</a>
+                </li>
+                <li>
+                    <a href="/StudentProfile/StudentsDashboard"><span class="fa fa-trophy mr-3"></span> Dashboard</a>
+                </li>
+
+                <li>
+                    <a href="/Login/Index"><span class="fa fa-sign-out mr-3"></span> Log Out</a>
+                </li>
+            </ul>
+
+        </nav>
+        <!-- Page Content  -->
+        <div id="content" class="p-4 p-md-5 pt-5">
+        <h1>Data Visualization Dashboard</h1>
+
+        <div class="row">
+        <div class="element-container chart-container" style="padding:80px">
+        <table id="topInterestsTable" width="200px">
+        <thead>
+        <tr>
+        <th>Top 5 Interests</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        </table>
+        </div><br /><br />
+
+        <div class="element-container chart-container" style="padding:80px">
+        <table id="bottomInterestsTable" width="200px">
+        <thead>
+        <tr>
+        <th>Bottom 5 Interests</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        </table>
+        </div>
+        <div class="element-container" style="padding:80px; font-size:20px">
+        <p><b>Distinct Interests</b></p>
+        <p id="distinctInterests" style="font-size:50px"></p>
+        </div>
+
+        </div>
+
+        <br />
+        <br />
+        <div class="row">
+
+        <div class="element-container chart-container" style="padding:80px">
+        <p><b>City Distribution</b></p>
+        <canvas id="cityDistributionChart"></canvas>
+        </div>
+        <br /><br />
+
+        </div>
+        <br /> <br />
+        <div class="row">
+        <br /><br />
+
+        <div class="element-container chart-container">
+        <p><b>Department Distribution</b></p>
+        <canvas id="departmentDistributionChart"></canvas>
+        </div>
+        <br /><br />
+        <div class="element-container chart-container">
+        <p><b>Degree Distribution</b></p>
+        <canvas id="degreeDistributionChart"></canvas>
+        </div>
+        </div>
+
+        <div class="row">
+        <div class="element-container chart-container">
+        <p><b>Gender Distribution</b></p>
+        <canvas id="genderDistributionChart"></canvas>
+        </div>
+        </div>
+
+
+
+        </div>
+
+        
+
+    </div>
+
+
+     <script src="~/js/dashboard.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+
+    // Fetch data for top 5 interests from ASP.NET backend
+    fetch('/Students/GetTop5Interests')
+    .then(response => {
+    response.json()
+    })
+
+    .then(topInterestsData => {
+    // Populate top interests table
+    populateTable('topInterestsTable', topInterestsData);
+    })
+    .catch(error => {
+    console.error('Error fetching top 5 interests data:', error);
+    });
+
+    // Fetch data for bottom 5 interests from ASP.NET backend
+    fetch('/Students/GetBottom5Interests')
+    .then(response => response.json())
+    .then(bottomInterestsData => {
+    // Populate bottom interests table
+    populateTable('bottomInterestsTable', bottomInterestsData);
+    })
+    .catch(error => {
+    console.error('Error fetching bottom 5 interests data:', error);
+    });
+
+    // Function to populate a table with a list of interests
+    function populateTable(tableId, interestsList) {
+    const tableBody = document.getElementById(tableId).getElementsByTagName('tbody')[0];
+
+    // Clear existing table rows
+    tableBody.innerHTML = '';
+
+    // Loop through the list of interests and populate table rows
+    interestsList.forEach((interest, index) => {
+    const newRow = tableBody.insertRow();
+    const cell1 = newRow.insertCell(0);
+    cell1.textContent = interest; // Interest value from the list
+    });
+    }
+
+    //distinct interests
+    fetch('/Students/GetDistinctInterests')
+    .then(response => response.json())
+    .then(data => {
+    const distinctInterestsCount = data; // Assuming the returned data is a number
+    document.getElementById('distinctInterests').textContent = distinctInterestsCount;
+    })
+    .catch(error => {
+    console.error('Error fetching distinct interests count:', error);
+    });
+
+    //city distribution data
+    fetch('/Students/GetCityDistributionData')
+
+    .then(response => response.json())
+
+    .then(data => {
+    // Process 'data' received, assuming it's in the form of {city: count }
+    const labels = Object.keys(data);
+    const counts = Object.values(data);
+
+    // Chart.js configuration
+    const ctx = document.getElementById('cityDistributionChart').getContext('2d');
+    const cityDistributionChart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+    labels: labels,
+    datasets: [{
+    label: 'City Distribution',
+    data: counts,
+    backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#7CB342', '#F5F5F5', '#AA4499', '#008C8C', '#FF8C00', '#4CAF50', '#333333'], // Adjust as needed
+    borderWidth: 1
+    }]
+    },
+    options: {
+    // Chart options and configurations
+    }
+    });
+    })
+    .catch(error => {
+    console.error('Error fetching city distribution data:', error);
+    });
+
+
+
+    //department distribution data
+    fetch('/Students/GetDepartmentDistributionData')
+
+    .then(response => response.json())
+
+    .then(data => {
+    const labels = Object.keys(data);
+    const counts = Object.values(data);
+
+    // Chart.js configuration
+    const ctx = document.getElementById('departmentDistributionChart').getContext('2d');
+    const cityDistributionChart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+    labels: labels,
+    datasets: [{
+    label: 'Department Distribution',
+    data: counts,
+    backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#7CB342', '#F5F5F5'], // Adjust as needed
+    borderWidth: 1
+    }]
+    },
+    options: {
+    // Chart options and configurations
+    }
+    });
+    })
+    .catch(error => {
+    console.error('Error fetching department distribution data:', error);
+    });
+
+
+    //degree distribution data
+    fetch('/Students/GetDegreeDistributionData')
+
+    .then(response => response.json())
+
+    .then(data => {
+    const labels = Object.keys(data);
+    const counts = Object.values(data);
+
+    // Chart.js configuration
+    const ctx = document.getElementById('degreeDistributionChart').getContext('2d');
+    const cityDistributionChart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+    labels: labels,
+    datasets: [{
+    label: 'Degree Distribution',
+    data: counts,
+    backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#7CB342', '#F5F5F5'], // Adjust as needed
+    borderWidth: 1
+    }]
+    },
+    options: {
+    // Chart options and configurations
+    }
+    });
+    })
+    .catch(error => {
+    console.error('Error fetching degree distribution data:', error);
+    });
+
+
+
+    //gender distribution data
+    fetch('/Students/GetGenderDistributionData')
+
+    .then(response => response.json())
+
+    .then(data => {
+    // Process 'data' received, assuming it's in the form of {city: count }
+    const labels = Object.keys(data);
+    const counts = Object.values(data);
+
+    // Chart.js configuration
+    const ctx = document.getElementById('genderDistributionChart').getContext('2d');
+    const cityDistributionChart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+    labels: labels,
+    datasets: [{
+    label: 'Gender Distribution',
+    data: counts,
+    backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#7CB342', '#F5F5F5'], // Adjust as needed
+    borderWidth: 1
+    }]
+    },
+    options: {
+    // Chart options and configurations
+    }
+    });
+    })
+    .catch(error => {
+    console.error('Error fetching Gender distribution data:', error);
+    });
+
+
+    </script>
+    
+</body>
+</html>
+
