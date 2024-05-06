@@ -1,0 +1,28 @@
+<!-- activity_add_medicine.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_black"
+    tools:context=".AddEditMedicine">
+
+    <TextView
+        android:id="@+id/addMedicineTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="ADD MEDICINE"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="30dp"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/addMedicineTextView"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>

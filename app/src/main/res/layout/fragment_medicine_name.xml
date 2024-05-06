@@ -1,0 +1,25 @@
+<!-- fragment_medicine_name.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/light_black">
+
+    <EditText
+        android:id="@+id/medicineNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Medicine Name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray"/>
+
+    <Button
+        android:id="@+id/nextButtonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/medicineNameEditText"
+        android:layout_centerHorizontal="true"
+        android:text="Next"
+        android:backgroundTint="@color/blue"/>
+</RelativeLayout>

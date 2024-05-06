@@ -1,0 +1,66 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    >
+
+    <Button
+        android:id="@+id/addMed_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Add Medicine"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:background="@color/light_black"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_bar"
+        android:layout_below="@id/addMed_btn"/>
+
+    <LinearLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@color/light_black">
+
+        <Button
+            android:id="@+id/home_btn"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="100dp"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:drawableLeft="@drawable/home_icon" />
+
+        <Button
+            android:id="@+id/medications_btn"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="100dp"
+            android:drawableLeft="@drawable/pill_icon" />
+
+        <Button
+            android:id="@+id/profile_btn"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:drawableLeft="@drawable/profile_icon" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<!-- fragment_medicine_times.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_black"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/labelTimes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Enter time for first dose:"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:background="@color/white"
+        android:numbersTextColor="@color/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelTimes"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:timePickerMode="spinner" />
+
+    <Button
+        android:id="@+id/nextButtonTimes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timePicker"
+        android:backgroundTint="@color/blue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Next" />
+
+</RelativeLayout>
