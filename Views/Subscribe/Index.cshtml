@@ -1,0 +1,31 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "SUBSCRIBE";
+}
+
+
+<div class="Start">
+
+    <h2>SUBSCRIBE TO GET PSL UPADTES</h2>
+    <form method="post" action="~/Subscribe/SubscribeForm">
+
+        <input type="text" placeholder="Email" class="input" name="email" required>
+        <br><br>
+        <input type="text" placeholder="Name" class="input" name="name" required>
+        <br><br>
+        @*<input type="tel" placeholder="Mobile Number" class="input" maxlength="11" required>
+        <br><br>*@
+        <input type="submit" value="Subscribe" class="Submit">
+        <br><br>
+        By Cicking On "Subscribe" above, you confirm that you accept the  <b>Terms of Use.</b>
+        <br><br>
+
+    </form>
+</div>
+<div class="col-12 trans"></div>
+<div>
+    <form method="post" action="~/Admin/Index">
+        <input type="submit" value="Admin" class="Submit">
+    </form>
+</div>
+ 

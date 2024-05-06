@@ -1,0 +1,420 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "RESULTS";
+}
+
+@*<html>
+    <head>
+
+         <link rel="stylesheet" href="~/css/style.css"/>
+        <title>
+               RESULTS
+        </title>
+        <link rel="shortcut icon" href="Images/favicon1.ico" type="image/x-icon">*@
+@*<style>
+             body{
+    background-image: url(Images/Untitled\ design.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-family :-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    margin: 20px;
+
+ }
+
+ .Start{
+
+    width: 500px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 25px;
+    padding: 30px;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+
+ }
+
+ .back{
+    margin-top: 35px;
+ }
+
+ .nav{
+    position: fixed;
+ }
+
+ ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 20px;
+    padding-top: 9px;
+
+    overflow: hidden;
+    /* background-color: rgb(185, 97, 38); */
+    background-color: rgb(26, 129, 78);
+
+ }
+
+ li{
+    float: right;
+ }
+
+ li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+ li a:hover {
+    /* background-color: rgb(26, 129, 78); */
+    background-color: rgb(185, 97, 38);
+  }
+
+
+ * {
+    box-sizing: border-box;
+  }
+
+
+ .row::after {
+    content: "";
+    clear: both;
+    display: block;
+ }
+
+ [class*="col-"] {
+    float: left;
+    padding: 15px;
+
+ }
+
+
+ .col-1 {width: 8.33%;}
+ .col-2 {width: 16.66%;}
+ .col-3 {width: 25%;}
+ .col-4 {width: 33.33%;}
+ .col-5 {width: 41.66%;}
+ .col-6 {width: 50%;}
+ .col-7 {width: 58.33%;}
+ .col-8 {width: 66.66%;}
+ .col-9 {width: 75%;}
+ .col-10 {width: 83.33%;}
+ .col-11 {width: 91.66%;}
+ .col-12 {width: 100%;}
+
+
+ @@media only screen and (max-width:768px) {
+     [class*="col-"]
+         { width: 100%;}
+ }
+
+
+ .line{
+    height:1px;
+    border-width:0;
+    color:gray;
+    background-color: rgb(185, 97, 38);
+    ;
+ }
+
+ .trans{
+     background-color: transparent;
+ }
+
+ .footer{
+    width: 100%;
+    padding: 25px 7%;
+    display:flex;
+    /* background-color:  rgb(185, 97, 38); */
+    background-color: rgb(26, 129, 78);
+    color: #fff;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+
+ .com{
+   padding-top: 10px;
+   text-align: right;
+}
+
+.social{
+
+  width: 17%;
+  height: auto;
+  text-decoration: none;
+}
+
+ .Sponsor_image{
+   float: right;
+ }
+
+ .PSL{
+
+    width: 11%;
+    height: auto;
+    float: left;
+    padding-top: 22px;
+    padding-left: 20px;
+ }
+
+ .vert{
+    border-left: 3px solid rgb(2, 2, 2);
+    height: 100px
+ }
+
+ .pak{
+    float: left;
+    font-weight: 600;
+    font-size: large;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px 30px;
+    padding-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    /* background-image: url(Images/pslpic.jpeg); */
+
+}
+
+#menu li a{
+align-items: center;
+
+}
+#menu{
+    /* padding-left: 3.5px; */
+    padding-top: 0px;
+}
+#menu li{
+    list-style: none;
+    display:inline-block;
+    margin-right: 59.5px;
+
+}
+/* #menu li:first-child{
+    margin-right: 0;
+} */
+
+header{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    /* padding: 20px 50px; */
+    align-items: center;
+
+}
+
+
+.sectionimage{
+    /* float: left; */
+    border: 1px solid #000;
+    border-radius: 1px;
+
+}
+
+.wrapper{
+    margin: 70px auto;
+    width: 100%;
+}
+
+.text-box{
+background-color: rgb(26, 129, 78);
+color: #fff;
+font-style: italic;
+}
+
+.text-box h1{
+    font-size: 50px;
+}
+
+/* #header-section{
+   position: fixed;
+} */
+
+    </style>*@
+@*   </head>
+        <body>
+            <div >
+
+                <ul>
+                    <!-- <img src="Images/psl8_logo_Circle.png" class = "PSL"> -->
+                  <li>  <a href="/Subscribe">SUBSCRIBE</a>  </li>
+                  <li>  <a href="/Results">RESULTS</a>  </li>
+                  <li>  <a href="#">FIXTURES</a>  </li>
+                  <li>  <a href="/Teams">TEAMS</a>   </li>
+                  <li>  <a href="/Home">HOME</a>     </li>
+
+                  <li class="pak"> HBL PAKISTAN SUPER LEAGUE </li>
+                  <li>
+                    <img src="Images/psl-logo-2023.webp"width="35%" height="auto" class="header_logo">
+                  </li>
+
+
+            </ul>*@
+<br>
+<section id="Season1">
+
+
+    <header>
+        <ul id="menu">
+            <li><a href=" #Season8 ">SEASON 8 </a></li>
+            <li><a href=" #Season7 ">SEASON 7 </a></li>
+            <li><a href=" #Season6 ">SEASON 6 </a></li>
+            <li><a href=" #Season5 ">SEASON 5 </a></li>
+            <li><a href=" #Season4 ">SEASON 4 </a></li>
+            <li><a href=" #Season3 ">SEASON 3 </a></li>
+            <li><a href=" #Season2 ">SEASON 2 </a></li>
+            <li><a href=" #Season1 ">SEASON 1 </a></li>
+        </ul>
+    </header>
+    <div class="wrapper">
+
+        <div class="text-box">
+            <h2>HBL PSL SEASON 1 WINNERS</h2>
+            <h1>ISLAMABAD UNITED</h1>
+        </div>
+        <img src="Images/season1.jpg" alt="Season1" width=58% height=" auto" class="sectionimage">
+    </div>
+</section>
+<br>
+
+<section id="Season2">
+    <div class="wrapper">
+
+        <div class="text-box">
+            <h2>HBL PSL SEASON 2 WINNERS</h2>
+
+            <h1>PESHAWAR ZALMI</h1>
+
+        </div>
+        <img src="Images/season2.jpg" alt="Season2" width=58% height=" auto" class="sectionimage">
+    </div>
+</section>
+<section id="Season3">
+    <div class="wrapper">
+
+        <div class="text-box">
+            <h2>HBL PSL SEASON 3 WINNERS</h2>
+
+            <h1>ISLAMABAD UNITED</h1>
+
+        </div>
+        <img src="Images/season3.webp" alt="Season3" width=58% height=" auto" class="sectionimage">
+    </div>
+</section>
+<section id="Season4">
+    <div class="wrapper">
+
+        <div class="text-box">
+            <h2>HBL PSL SEASON 4 WINNERS</h2>
+
+            <h1>QUETTA GLADIATORS</h1>
+
+        </div>
+        <img src="Images/season4.jpg" alt="Season4" width=58% height=" auto" class="sectionimage">
+    </div>
+</section>
+<section id="Season5">
+    <div class="wrapper">
+
+        <div class="text-box">
+            <h2>HBL PSL SEASON 5 WINNERS</h2>
+
+            <h1>KARACHI KINGS</h1>
+
+        </div>
+        <img src="Images/season5.jpg" alt="Season5" width=58% height=" auto" class="sectionimage">
+    </div>
+</section>
+<section id="Season6">
+    <div class="wrapper">
+
+        <div class="text-box">
+            <h2>HBL PSL SEASON 6 WINNERS</h2>
+
+            <h1>MULTAN SULTANS</h1>
+
+        </div>
+        <img src="Images/season6.webp" alt="Season6" width=58% height=" auto" class="sectionimage">
+    </div>
+</section>
+<section id="Season7">
+    <div class="wrapper">
+
+        <div class="text-box">
+            <h2>HBL PSL SEASON 7 WINNERS</h2>
+
+            <h1>LAHORE QALANDARS</h1>
+
+        </div>
+        <img src="Images/season7.jpg" alt="Season7" width=58% height=" auto" class="sectionimage">
+    </div>
+</section>
+<section id="Season8">
+    <div class="wrapper">
+
+        <div class="text-box">
+            <h2>HBL PSL SEASON 8 WINNERS</h2>
+
+            <h1>LAHORE QALANDARS</h1>
+
+        </div>
+        <img src="Images/LQ_trophy_Pics.jpg" alt="Season8" width=58% height=" auto" class="sectionimage">
+    </div>
+</section>
+
+
+
+
+
+@*<div class="col-12 footer">
+
+                      <img src="Images/psl8_logo_Circle.png" class="PSL">
+                        &nbsp;&nbsp;
+                        <!-- <b class="sponsor">HBL PSL SEASON 8 SPONSORS</b> -->
+
+                        <img src="Images/sponsors-2023.png" width="75%" height="auto" class="Sponsor_image">
+
+
+                        <br>
+                        &nbsp;&nbsp;
+                        <div class="com">
+                              <b>JOIN OUR COMMUNITY</b>
+                              <br><br>
+                              <a href="https://www.facebook.com/thePSL/">
+                                <img src="Images/facebook.png" class="social">
+                              </a>
+
+                            &nbsp;&nbsp;
+                            <a href="https://www.youtube.com/%40PakistanSuperLeagueOfficial">
+                                <img src="Images/58e9197deb97430e819064f8.png" class="social">
+                            </a>
+
+                            &nbsp;&nbsp;
+                            <a href="https://twitter.com/thePSLt20?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                                <img src="Images/5a2fe3efcc45e43754640848.png" class="social">
+                            </a>
+
+                            &nbsp;&nbsp;
+                            <a href="https://www.instagram.com/thepsl/?hl=en">
+                                <img src="Images/pngkey.com-instagram-circle-png-4486200.png" class="social">
+                            </a>
+                            <br><br>
+                                © 2023 All Rights Reserved
+                                  </div>
+                        </div>
+                </div>
+        </body>
+</html>*@

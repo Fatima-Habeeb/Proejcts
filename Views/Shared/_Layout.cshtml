@@ -1,0 +1,38 @@
+﻿<html>
+<head>
+    <title>@ViewBag.Title</title>
+    @if (ViewBag.Title == "ADMIN")
+    {
+        <link rel = "stylesheet" href = "~/css/admin.css">
+    }
+    else
+    {
+        <link rel="stylesheet" href="~/css/style.css">
+    }
+    <link rel="shortcut icon" href="/Images/favicon1.ico" type="image/x-icon">
+</head>
+
+
+
+<body>
+    
+
+        <ul class ="ul-class">
+        <li class="li-class">  <a href="/Chat">CHAT</a>  </li>
+        <li class="li-class">  <a href="/Subscribe">SUBSCRIBE</a>  </li>
+        <li class="li-class">  <a href="/Results">RESULTS</a>  </li>
+        <li class ="li-class">  <a href="/Fixtures">FIXTURES</a>  </li>
+        <li class="li-class">  <a href="/Teams">TEAMS</a>   </li>
+        <li class="li-class">  <a href="/Home">HOME</a>     </li>
+
+            <li class="pak"> HBL PAKISTAN SUPER LEAGUE SEASON 8  </li>
+          
+
+        </ul>
+
+        @RenderBody()
+        @RenderSection("Scripts", required: false)
+
+        @Html.Partial("_partial");
+</body>
+</html>

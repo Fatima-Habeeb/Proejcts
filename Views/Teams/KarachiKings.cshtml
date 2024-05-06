@@ -1,0 +1,23 @@
+﻿@model List<KarachiKings>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "KARACHI KINGS";
+}
+
+<div class="team-name">
+    <h1>Karachi Kings</h1>
+</div>
+
+
+
+@foreach (var player in Model)
+{
+    <img class="player-image" src="@player.path" alt="Player Image" style="width: 80px; height: 100px; border-radius: 50%;  margin-right: 10px;">
+     <p style = "font-size:large; font-weight: bold;">@player.Name</p>
+    <p style ="font-size:large">@player.Type</p>
+            <hr />
+        
+    
+}
+
+

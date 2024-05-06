@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>ADMIN</title>
+    <link rel="stylesheet" href="~/css/admin.css" />
+
+</head>
+<body>
+    <div class="form-container">
+        <h2>remove Player</h2>
+        <form method="post" action="~/Admin/Removeplayer">
+            <div>
+                <label for="teamName">Team Name of the player:</label>
+                <input type="text" id="teamName" name="team" placeholder="Enter team name">
+            </div>
+            <br />
+            <div>
+                <label for="playerName">Player Name:</label>
+                <input type="text" id="playerName" name="player" placeholder="Enter player name">
+            </div>
+            <br />
+            <div>
+                <label for="playerType">Player Type:</label>
+                <input type="text" id="playerName" name="type" placeholder="Enter player type">
+            </div>
+            <br />
+            <input class="btn" type="submit" value="Remove">
+        </form>
+    </div>
+
+</body>
+</html>

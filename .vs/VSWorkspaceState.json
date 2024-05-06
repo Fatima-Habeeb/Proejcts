@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Models",
+    "\\Repositories",
+    "\\Views",
+    "\\Views\\Admin"
+  ],
+  "SelectedNode": "\\Repositories\\KKRepository.cs",
+  "PreviewInSolutionExplorer": false
+}

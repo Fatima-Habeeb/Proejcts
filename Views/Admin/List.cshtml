@@ -1,0 +1,27 @@
+﻿@model IEnumerable<List<Dictionary<string, object>>>
+
+
+<h1>List of all Players</h1>
+
+@foreach (var tableData in Model)
+{
+    <h2>@tableData[0]["TableName"]</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in tableData)
+            {
+                <tr>
+                    <td>@item["Name"]</td>
+                    <td>@item["Type"]</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

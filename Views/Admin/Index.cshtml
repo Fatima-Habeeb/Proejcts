@@ -1,0 +1,38 @@
+﻿@*@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "ADMIN";
+}
+*@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ADMIN</title>
+    <link rel="stylesheet" href="~/css/admin.css" />
+
+</head>
+<body>
+
+<div class="Start">
+
+    <h2>ADMIN</h2>
+    <form method="post" action="~/Admin/AdminForm">
+
+        <input type="text" placeholder="Email" class="input" name="email" required>
+        <br><br>
+        <input type="password" placeholder="Password" class="input" name="password" required>
+        <br><br>
+
+        <input type="submit" value="Login" class="Submit">
+        <br><br>
+        
+
+    </form>
+    
+</div>
+<div class="col-12 trans"></div>
+<br />
+<br />
+</body>
+
+</html>

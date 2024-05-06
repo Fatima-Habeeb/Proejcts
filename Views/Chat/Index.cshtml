@@ -1,0 +1,119 @@
+﻿@page
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "CHAT";
+}
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+@*<div class="container">
+
+
+    <div class="row p-1">
+        <div class="col-6 text-end">
+            <input type="text" id="messageInput" /> 
+            <input type="button" id="sendButton" value="Send Message" />  
+        </div>
+    </div>
+    <div class="row p-1">
+        <div class="col-6">
+            <hr />
+        </div>
+    </div>
+    <div class="row p-1">
+        <div class="col-6">
+            <ul style="background-color:aliceblue; list-style-type: circle; display: list-item;" id="messagesList">
+                </ulstyle>
+        </div>
+    </div>
+</div>
+<script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/chat.js"></script>
+*@
+
+<style>
+    #messagesList {
+        list-style-type: none;
+        text-align: center;
+        padding: 0;
+    }
+
+        #messagesList li {
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+</style>
+
+@*<h1>Group Chat</h1>
+
+<input type="text" id="nameInput" placeholder="Enter your name" />
+<input type="text" id="messageInput" placeholder="Type your message" />
+<button id="sendButton">Send Message</button>
+
+<hr />
+
+<ul id="messagesList"></ul>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            const connection = new signalR.HubConnectionBuilder()
+                .withUrl("/chatHub")
+                .build();
+
+            connection.start().then(function () {
+                console.log("SignalR connected.");
+            }).catch(function (err) {
+                console.error(err.toString());
+            });
+
+            connection.on("ReceiveMessage", function (senderName, message) {
+                var li = $("<li>").text(senderName + ": " + message);
+                var lineBreak = $("<br>");
+                $("#messagesList").append(li).append(lineBreak);
+            });
+
+            $("#sendButton").click(function () {
+                var name = $("#nameInput").val();
+                var message = $("#messageInput").val();
+                connection.invoke("SendMessage", name, message).catch(function (err) {
+                    console.error(err.toString());
+                });
+                $("#messageInput").val("");
+            });
+        });
+    </script>
+
+}
+
+<br />
+<br />
+<br />
+<br />
+<br />*@
+
+
+    <div id="dashboard">
+        <h1>Real-Time Data Dashboard</h1>
+        <p id="data">Loading...</p>
+        <button id="sendButton">Send Test Data</button>
+    </div>
+
+    <script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/chat.js"></script>
+
+
+  
+

@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>ADMIN</title>
+    <link rel="stylesheet" href="~/css/admin.css" />
+
+</head>
+<body>
+        <div class="form-container">
+            <h2>Add Player</h2>
+        <form method="post" action="~/Admin/Addplayer" enctype="multipart/form-data">
+                <div>
+                    <label for="teamName">Team Name of the player:</label>
+                    <input type="text" id="teamName" name="team" placeholder="Enter team name">
+                </div>
+                <br />
+                <div>
+                    <label for="playerName">Player Name:</label>
+                    <input type="text" id="playerName" name="player" placeholder="Enter player name">
+                </div>
+                <br />
+            <div>
+                <label for="playerType">Player Type:</label>
+                <input type="text" id="playerName" name="type" placeholder="Enter player type">
+            </div>
+            <div>
+                <label for="myfile">Upload image of the player: </label>
+                <input type="file" id="myfile" name="file">
+			</div>
+            <br />
+                <input class="btn" type="submit" value="Add">
+            </form>
+        
+        </div>
+
+        <br />
+        <br>
+        <br />
+    <br />
+    <br>
+    <br />
+
+</body>
+</html>

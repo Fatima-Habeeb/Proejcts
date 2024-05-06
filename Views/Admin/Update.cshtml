@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>ADMIN</title>
+    <link rel="stylesheet" href="~/css/admin.css" />
+
+</head>
+<body>
+    <div class="form-container">
+        <h2>Update Player</h2>
+        <form method="post" action="~/Admin/UpdatePlayer" enctype="multipart/form-data">
+            <div>
+                <label for="teamName">Team Name of the player:</label>
+                <input type="text" id="teamName" name="team" placeholder="Enter team name" required>
+            </div>
+            <br />
+            <div>
+                <label for="oldPlayerName">Old Player Name:</label>
+                <input type="text" id="oldPlayerName" name="oldName" placeholder="Enter old player name" required>
+            </div>
+            <br />
+            <div>
+                <label for="oldPlayerType">Old Player Type:</label>
+                <input type="text" id="oldPlayerType" name="oldType" placeholder="Enter old player type" required>
+            </div>
+            <br />
+            <div>
+                <label for="newPlayerName">New Player Name:</label>
+                <input type="text" id="newPlayerName" name="newName" placeholder="Enter new player name">
+            </div>
+            <br />
+            <div>
+                <label for="newPlayerType">New Player Type:</label>
+                <input type="text" id="newPlayerType" name="newType" placeholder="Enter new player type">
+            </div>
+            <br />
+            <div>
+                <label for="myfile">Upload image of the player: </label>
+                <input type="file" id="myfile" name="file">
+            </div>
+            <br />
+            <input class="btn" type="submit" value="Update">
+        </form>
+    </div>
+</body>
+</html>

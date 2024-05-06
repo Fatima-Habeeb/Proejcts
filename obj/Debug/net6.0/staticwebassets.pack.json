@@ -1,0 +1,813 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\webproject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\webproject.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\1198.jfif",
+      "PackagePath": "staticwebassets\\Images\\1198.jfif"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\58e9197deb97430e819064f8.png",
+      "PackagePath": "staticwebassets\\Images\\58e9197deb97430e819064f8.png"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\5a2fe3efcc45e43754640848.png",
+      "PackagePath": "staticwebassets\\Images\\5a2fe3efcc45e43754640848.png"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\FAVICON.ico",
+      "PackagePath": "staticwebassets\\Images\\FAVICON.ico"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\FZ.jpg",
+      "PackagePath": "staticwebassets\\Images\\FZ.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\IS.jfif",
+      "PackagePath": "staticwebassets\\Images\\IS.jfif"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\IU_PLayers\\1.jpg",
+      "PackagePath": "staticwebassets\\Images\\IU_PLayers\\1.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\IU_PLayers\\10.jpg",
+      "PackagePath": "staticwebassets\\Images\\IU_PLayers\\10.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\IU_PLayers\\11.jpg",
+      "PackagePath": "staticwebassets\\Images\\IU_PLayers\\11.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\IU_PLayers\\12.jpg",
+      "PackagePath": "staticwebassets\\Images\\IU_PLayers\\12.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\IU_PLayers\\13.jpg",
+      "PackagePath": "staticwebassets\\Images\\IU_PLayers\\13.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\IU_PLayers\\14.jpg",
+      "PackagePath": "staticwebassets\\Images\\IU_PLayers\\14.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\IU_PLayers\\2.jpg",
+      "PackagePath": "staticwebassets\\Images\\IU_PLayers\\2.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\IU_PLayers\\3.jpg",
+      "PackagePath": "staticwebassets\\Images\\IU_PLayers\\3.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\IU_PLayers\\4.jpg",
+      "PackagePath": "staticwebassets\\Images\\IU_PLayers\\4.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\IU_PLayers\\5.jpg",
+      "PackagePath": "staticwebassets\\Images\\IU_PLayers\\5.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\IU_PLayers\\6.jpg",
+      "PackagePath": "staticwebassets\\Images\\IU_PLayers\\6.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\IU_PLayers\\7.jpg",
+      "PackagePath": "staticwebassets\\Images\\IU_PLayers\\7.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\IU_PLayers\\8.jpg",
+      "PackagePath": "staticwebassets\\Images\\IU_PLayers\\8.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\IU_PLayers\\9.jpg",
+      "PackagePath": "staticwebassets\\Images\\IU_PLayers\\9.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\KK.jfif",
+      "PackagePath": "staticwebassets\\Images\\KK.jfif"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\KK1.jpg",
+      "PackagePath": "staticwebassets\\Images\\KK1.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\KK_Players\\1.jpg",
+      "PackagePath": "staticwebassets\\Images\\KK_Players\\1.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\KK_Players\\10.jpeg",
+      "PackagePath": "staticwebassets\\Images\\KK_Players\\10.jpeg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\KK_Players\\11.jpeg",
+      "PackagePath": "staticwebassets\\Images\\KK_Players\\11.jpeg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\KK_Players\\12.jpeg",
+      "PackagePath": "staticwebassets\\Images\\KK_Players\\12.jpeg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\KK_Players\\2.jpg",
+      "PackagePath": "staticwebassets\\Images\\KK_Players\\2.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\KK_Players\\3.png",
+      "PackagePath": "staticwebassets\\Images\\KK_Players\\3.png"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\KK_Players\\4.png",
+      "PackagePath": "staticwebassets\\Images\\KK_Players\\4.png"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\KK_Players\\5.jpg",
+      "PackagePath": "staticwebassets\\Images\\KK_Players\\5.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\KK_Players\\6.jpeg",
+      "PackagePath": "staticwebassets\\Images\\KK_Players\\6.jpeg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\KK_Players\\7.jpg",
+      "PackagePath": "staticwebassets\\Images\\KK_Players\\7.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\KK_Players\\8.jpg",
+      "PackagePath": "staticwebassets\\Images\\KK_Players\\8.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\KK_Players\\9.jpeg",
+      "PackagePath": "staticwebassets\\Images\\KK_Players\\9.jpeg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\LQ.jfif",
+      "PackagePath": "staticwebassets\\Images\\LQ.jfif"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\LQ1.jpg",
+      "PackagePath": "staticwebassets\\Images\\LQ1.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\LQ_Players\\1.jpg",
+      "PackagePath": "staticwebassets\\Images\\LQ_Players\\1.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\LQ_Players\\10.jpg",
+      "PackagePath": "staticwebassets\\Images\\LQ_Players\\10.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\LQ_Players\\11.jpg",
+      "PackagePath": "staticwebassets\\Images\\LQ_Players\\11.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\LQ_Players\\12.jpg",
+      "PackagePath": "staticwebassets\\Images\\LQ_Players\\12.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\LQ_Players\\13.jpg",
+      "PackagePath": "staticwebassets\\Images\\LQ_Players\\13.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\LQ_Players\\14.jpg",
+      "PackagePath": "staticwebassets\\Images\\LQ_Players\\14.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\LQ_Players\\17.jpg",
+      "PackagePath": "staticwebassets\\Images\\LQ_Players\\17.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\LQ_Players\\2.jpg",
+      "PackagePath": "staticwebassets\\Images\\LQ_Players\\2.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\LQ_Players\\3.jpg",
+      "PackagePath": "staticwebassets\\Images\\LQ_Players\\3.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\LQ_Players\\4.jpg",
+      "PackagePath": "staticwebassets\\Images\\LQ_Players\\4.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\LQ_Players\\5.jpg",
+      "PackagePath": "staticwebassets\\Images\\LQ_Players\\5.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\LQ_Players\\6.jpg",
+      "PackagePath": "staticwebassets\\Images\\LQ_Players\\6.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\LQ_Players\\8.jpg",
+      "PackagePath": "staticwebassets\\Images\\LQ_Players\\8.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\LQ_Players\\9.jpg",
+      "PackagePath": "staticwebassets\\Images\\LQ_Players\\9.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\LQ_trophy_Pics.jpg",
+      "PackagePath": "staticwebassets\\Images\\LQ_trophy_Pics.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\MS1.jpeg",
+      "PackagePath": "staticwebassets\\Images\\MS1.jpeg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\MS_Players\\1.webp",
+      "PackagePath": "staticwebassets\\Images\\MS_Players\\1.webp"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\MS_Players\\10.webp",
+      "PackagePath": "staticwebassets\\Images\\MS_Players\\10.webp"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\MS_Players\\11.webp",
+      "PackagePath": "staticwebassets\\Images\\MS_Players\\11.webp"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\MS_Players\\12.webp",
+      "PackagePath": "staticwebassets\\Images\\MS_Players\\12.webp"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\MS_Players\\13.webp",
+      "PackagePath": "staticwebassets\\Images\\MS_Players\\13.webp"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\MS_Players\\14.webp",
+      "PackagePath": "staticwebassets\\Images\\MS_Players\\14.webp"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\MS_Players\\2.webp",
+      "PackagePath": "staticwebassets\\Images\\MS_Players\\2.webp"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\MS_Players\\3.webp",
+      "PackagePath": "staticwebassets\\Images\\MS_Players\\3.webp"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\MS_Players\\4.webp",
+      "PackagePath": "staticwebassets\\Images\\MS_Players\\4.webp"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\MS_Players\\5.webp",
+      "PackagePath": "staticwebassets\\Images\\MS_Players\\5.webp"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\MS_Players\\6.webp",
+      "PackagePath": "staticwebassets\\Images\\MS_Players\\6.webp"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\MS_Players\\7.webp",
+      "PackagePath": "staticwebassets\\Images\\MS_Players\\7.webp"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\MS_Players\\8.webp",
+      "PackagePath": "staticwebassets\\Images\\MS_Players\\8.webp"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\MS_Players\\9.webp",
+      "PackagePath": "staticwebassets\\Images\\MS_Players\\9.webp"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\PS1.jpg",
+      "PackagePath": "staticwebassets\\Images\\PS1.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\PS2.jpg",
+      "PackagePath": "staticwebassets\\Images\\PS2.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\PS_Players\\1.jpg",
+      "PackagePath": "staticwebassets\\Images\\PS_Players\\1.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\PS_Players\\10.jpg",
+      "PackagePath": "staticwebassets\\Images\\PS_Players\\10.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\PS_Players\\11.jpg",
+      "PackagePath": "staticwebassets\\Images\\PS_Players\\11.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\PS_Players\\12.jpg",
+      "PackagePath": "staticwebassets\\Images\\PS_Players\\12.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\PS_Players\\13.jpg",
+      "PackagePath": "staticwebassets\\Images\\PS_Players\\13.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\PS_Players\\14.jpg",
+      "PackagePath": "staticwebassets\\Images\\PS_Players\\14.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\PS_Players\\15.jpg",
+      "PackagePath": "staticwebassets\\Images\\PS_Players\\15.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\PS_Players\\2.jpg",
+      "PackagePath": "staticwebassets\\Images\\PS_Players\\2.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\PS_Players\\3.jpg",
+      "PackagePath": "staticwebassets\\Images\\PS_Players\\3.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\PS_Players\\4.jpg",
+      "PackagePath": "staticwebassets\\Images\\PS_Players\\4.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\PS_Players\\5.jpg",
+      "PackagePath": "staticwebassets\\Images\\PS_Players\\5.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\PS_Players\\6.jpg",
+      "PackagePath": "staticwebassets\\Images\\PS_Players\\6.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\PS_Players\\7.jpg",
+      "PackagePath": "staticwebassets\\Images\\PS_Players\\7.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\PS_Players\\8.jpg",
+      "PackagePath": "staticwebassets\\Images\\PS_Players\\8.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\PS_Players\\9.jpg",
+      "PackagePath": "staticwebassets\\Images\\PS_Players\\9.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\PZ.jfif",
+      "PackagePath": "staticwebassets\\Images\\PZ.jfif"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\QG.jpg",
+      "PackagePath": "staticwebassets\\Images\\QG.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\QG_Players\\1.jpg",
+      "PackagePath": "staticwebassets\\Images\\QG_Players\\1.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\QG_Players\\10.jpg",
+      "PackagePath": "staticwebassets\\Images\\QG_Players\\10.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\QG_Players\\11.jpg",
+      "PackagePath": "staticwebassets\\Images\\QG_Players\\11.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\QG_Players\\12.jpg",
+      "PackagePath": "staticwebassets\\Images\\QG_Players\\12.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\QG_Players\\13.jpg",
+      "PackagePath": "staticwebassets\\Images\\QG_Players\\13.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\QG_Players\\14.jpg",
+      "PackagePath": "staticwebassets\\Images\\QG_Players\\14.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\QG_Players\\2.jpg",
+      "PackagePath": "staticwebassets\\Images\\QG_Players\\2.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\QG_Players\\3.jpg",
+      "PackagePath": "staticwebassets\\Images\\QG_Players\\3.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\QG_Players\\4.jpg",
+      "PackagePath": "staticwebassets\\Images\\QG_Players\\4.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\QG_Players\\5.jpg",
+      "PackagePath": "staticwebassets\\Images\\QG_Players\\5.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\QG_Players\\6.jpg",
+      "PackagePath": "staticwebassets\\Images\\QG_Players\\6.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\QG_Players\\7.jpg",
+      "PackagePath": "staticwebassets\\Images\\QG_Players\\7.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\QG_Players\\8.jpg",
+      "PackagePath": "staticwebassets\\Images\\QG_Players\\8.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\QG_Players\\9.jpg",
+      "PackagePath": "staticwebassets\\Images\\QG_Players\\9.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\QG_Players\\MDCAT CHALLAN.pdf",
+      "PackagePath": "staticwebassets\\Images\\QG_Players\\MDCAT CHALLAN.pdf"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\admin.png",
+      "PackagePath": "staticwebassets\\Images\\admin.png"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\chat.jpeg",
+      "PackagePath": "staticwebassets\\Images\\chat.jpeg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\circle-cropped.png",
+      "PackagePath": "staticwebassets\\Images\\circle-cropped.png"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\facebook.png",
+      "PackagePath": "staticwebassets\\Images\\facebook.png"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\favicon1.ico",
+      "PackagePath": "staticwebassets\\Images\\favicon1.ico"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\favicon1.jpeg",
+      "PackagePath": "staticwebassets\\Images\\favicon1.jpeg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\kings_logo.png",
+      "PackagePath": "staticwebassets\\Images\\kings_logo.png"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\lahore_logo.png",
+      "PackagePath": "staticwebassets\\Images\\lahore_logo.png"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\pngkey.com-instagram-circle-png-4486200.png",
+      "PackagePath": "staticwebassets\\Images\\pngkey.com-instagram-circle-png-4486200.png"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\psl-logo-2023.webp",
+      "PackagePath": "staticwebassets\\Images\\psl-logo-2023.webp"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\psl8.jpg",
+      "PackagePath": "staticwebassets\\Images\\psl8.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\psl8_logo_Circle.ico",
+      "PackagePath": "staticwebassets\\Images\\psl8_logo_Circle.ico"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\psl8_logo_Circle.png",
+      "PackagePath": "staticwebassets\\Images\\psl8_logo_Circle.png"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\pslpic.jpeg",
+      "PackagePath": "staticwebassets\\Images\\pslpic.jpeg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\quetta-logo-modified.png",
+      "PackagePath": "staticwebassets\\Images\\quetta-logo-modified.png"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\quetta-logo.jpg",
+      "PackagePath": "staticwebassets\\Images\\quetta-logo.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\roy.jpeg",
+      "PackagePath": "staticwebassets\\Images\\roy.jpeg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\season1.jpeg",
+      "PackagePath": "staticwebassets\\Images\\season1.jpeg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\season1.jpg",
+      "PackagePath": "staticwebassets\\Images\\season1.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\season2.jpg",
+      "PackagePath": "staticwebassets\\Images\\season2.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\season3.jpeg",
+      "PackagePath": "staticwebassets\\Images\\season3.jpeg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\season3.webp",
+      "PackagePath": "staticwebassets\\Images\\season3.webp"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\season4.jpg",
+      "PackagePath": "staticwebassets\\Images\\season4.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\season5.jpg",
+      "PackagePath": "staticwebassets\\Images\\season5.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\season6.webp",
+      "PackagePath": "staticwebassets\\Images\\season6.webp"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\season7.jpg",
+      "PackagePath": "staticwebassets\\Images\\season7.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\sponsors-2023.png",
+      "PackagePath": "staticwebassets\\Images\\sponsors-2023.png"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\sultan_logo-modified.png",
+      "PackagePath": "staticwebassets\\Images\\sultan_logo-modified.png"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\sultan_logo.jpg",
+      "PackagePath": "staticwebassets\\Images\\sultan_logo.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\trophy.jpg",
+      "PackagePath": "staticwebassets\\Images\\trophy.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\united_logo-modified.png",
+      "PackagePath": "staticwebassets\\Images\\united_logo-modified.png"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\united_logo.jpg",
+      "PackagePath": "staticwebassets\\Images\\united_logo.jpg"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\Images\\zalmi_logo.png",
+      "PackagePath": "staticwebassets\\Images\\zalmi_logo.png"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "D:\\Semesters\\6-Sixth Semester\\webproject\\webproject\\wwwroot\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\lib\\microsoft\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.webproject.props",
+      "PackagePath": "build\\webproject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.webproject.props",
+      "PackagePath": "buildMultiTargeting\\webproject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.webproject.props",
+      "PackagePath": "buildTransitive\\webproject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.webproject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
