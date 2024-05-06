@@ -1,0 +1,12 @@
+D:\PUCIT\WEB\PassengerLibrary\PassengerLibrary\bin\Debug\net6.0\PassengerLibrary.deps.json
+D:\PUCIT\WEB\PassengerLibrary\PassengerLibrary\bin\Debug\net6.0\PassengerLibrary.dll
+D:\PUCIT\WEB\PassengerLibrary\PassengerLibrary\bin\Debug\net6.0\PassengerLibrary.pdb
+D:\PUCIT\WEB\PassengerLibrary\PassengerLibrary\obj\Debug\net6.0\PassengerLibrary.csproj.AssemblyReference.cache
+D:\PUCIT\WEB\PassengerLibrary\PassengerLibrary\obj\Debug\net6.0\PassengerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\PUCIT\WEB\PassengerLibrary\PassengerLibrary\obj\Debug\net6.0\PassengerLibrary.AssemblyInfoInputs.cache
+D:\PUCIT\WEB\PassengerLibrary\PassengerLibrary\obj\Debug\net6.0\PassengerLibrary.AssemblyInfo.cs
+D:\PUCIT\WEB\PassengerLibrary\PassengerLibrary\obj\Debug\net6.0\PassengerLibrary.csproj.CoreCompileInputs.cache
+D:\PUCIT\WEB\PassengerLibrary\PassengerLibrary\obj\Debug\net6.0\PassengerLibrary.dll
+D:\PUCIT\WEB\PassengerLibrary\PassengerLibrary\obj\Debug\net6.0\refint\PassengerLibrary.dll
+D:\PUCIT\WEB\PassengerLibrary\PassengerLibrary\obj\Debug\net6.0\PassengerLibrary.pdb
+D:\PUCIT\WEB\PassengerLibrary\PassengerLibrary\obj\Debug\net6.0\ref\PassengerLibrary.dll

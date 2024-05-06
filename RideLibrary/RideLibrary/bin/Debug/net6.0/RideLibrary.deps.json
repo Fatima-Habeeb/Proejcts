@@ -1,0 +1,95 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "RideLibrary/1.0.0": {
+        "dependencies": {
+          "AdminLibrary": "1.0.0.0",
+          "DriverLibrary": "1.0.0.0",
+          "LocationLibrary": "1.0.0.0",
+          "PassengerLibrary": "1.0.0.0",
+          "VehicleLibrary": "1.0.0.0"
+        },
+        "runtime": {
+          "RideLibrary.dll": {}
+        }
+      },
+      "AdminLibrary/1.0.0.0": {
+        "runtime": {
+          "AdminLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DriverLibrary/1.0.0.0": {
+        "runtime": {
+          "DriverLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "LocationLibrary/1.0.0.0": {
+        "runtime": {
+          "LocationLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PassengerLibrary/1.0.0.0": {
+        "runtime": {
+          "PassengerLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "VehicleLibrary/1.0.0.0": {
+        "runtime": {
+          "VehicleLibrary.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RideLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdminLibrary/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DriverLibrary/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LocationLibrary/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PassengerLibrary/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VehicleLibrary/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

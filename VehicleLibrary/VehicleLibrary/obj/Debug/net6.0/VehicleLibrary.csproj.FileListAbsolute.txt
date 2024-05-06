@@ -1,0 +1,12 @@
+D:\PUCIT\WEB\VehicleLibrary\VehicleLibrary\bin\Debug\net6.0\VehicleLibrary.deps.json
+D:\PUCIT\WEB\VehicleLibrary\VehicleLibrary\bin\Debug\net6.0\VehicleLibrary.dll
+D:\PUCIT\WEB\VehicleLibrary\VehicleLibrary\bin\Debug\net6.0\VehicleLibrary.pdb
+D:\PUCIT\WEB\VehicleLibrary\VehicleLibrary\obj\Debug\net6.0\VehicleLibrary.csproj.AssemblyReference.cache
+D:\PUCIT\WEB\VehicleLibrary\VehicleLibrary\obj\Debug\net6.0\VehicleLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\PUCIT\WEB\VehicleLibrary\VehicleLibrary\obj\Debug\net6.0\VehicleLibrary.AssemblyInfoInputs.cache
+D:\PUCIT\WEB\VehicleLibrary\VehicleLibrary\obj\Debug\net6.0\VehicleLibrary.AssemblyInfo.cs
+D:\PUCIT\WEB\VehicleLibrary\VehicleLibrary\obj\Debug\net6.0\VehicleLibrary.csproj.CoreCompileInputs.cache
+D:\PUCIT\WEB\VehicleLibrary\VehicleLibrary\obj\Debug\net6.0\VehicleLibrary.dll
+D:\PUCIT\WEB\VehicleLibrary\VehicleLibrary\obj\Debug\net6.0\refint\VehicleLibrary.dll
+D:\PUCIT\WEB\VehicleLibrary\VehicleLibrary\obj\Debug\net6.0\VehicleLibrary.pdb
+D:\PUCIT\WEB\VehicleLibrary\VehicleLibrary\obj\Debug\net6.0\ref\VehicleLibrary.dll

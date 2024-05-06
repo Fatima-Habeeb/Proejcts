@@ -1,0 +1,17 @@
+D:\PUCIT\WEB\DriverLibrary\DriverLibrary\bin\Debug\net6.0\DriverLibrary.deps.json
+D:\PUCIT\WEB\DriverLibrary\DriverLibrary\bin\Debug\net6.0\DriverLibrary.dll
+D:\PUCIT\WEB\DriverLibrary\DriverLibrary\bin\Debug\net6.0\DriverLibrary.pdb
+D:\PUCIT\WEB\DriverLibrary\DriverLibrary\bin\Debug\net6.0\LocationLibrary.dll
+D:\PUCIT\WEB\DriverLibrary\DriverLibrary\bin\Debug\net6.0\VehicleLibrary.dll
+D:\PUCIT\WEB\DriverLibrary\DriverLibrary\bin\Debug\net6.0\LocationLibrary.pdb
+D:\PUCIT\WEB\DriverLibrary\DriverLibrary\bin\Debug\net6.0\VehicleLibrary.pdb
+D:\PUCIT\WEB\DriverLibrary\DriverLibrary\obj\Debug\net6.0\DriverLibrary.csproj.AssemblyReference.cache
+D:\PUCIT\WEB\DriverLibrary\DriverLibrary\obj\Debug\net6.0\DriverLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\PUCIT\WEB\DriverLibrary\DriverLibrary\obj\Debug\net6.0\DriverLibrary.AssemblyInfoInputs.cache
+D:\PUCIT\WEB\DriverLibrary\DriverLibrary\obj\Debug\net6.0\DriverLibrary.AssemblyInfo.cs
+D:\PUCIT\WEB\DriverLibrary\DriverLibrary\obj\Debug\net6.0\DriverLibrary.csproj.CoreCompileInputs.cache
+D:\PUCIT\WEB\DriverLibrary\DriverLibrary\obj\Debug\net6.0\DriverLibrary.csproj.CopyComplete
+D:\PUCIT\WEB\DriverLibrary\DriverLibrary\obj\Debug\net6.0\DriverLibrary.dll
+D:\PUCIT\WEB\DriverLibrary\DriverLibrary\obj\Debug\net6.0\refint\DriverLibrary.dll
+D:\PUCIT\WEB\DriverLibrary\DriverLibrary\obj\Debug\net6.0\DriverLibrary.pdb
+D:\PUCIT\WEB\DriverLibrary\DriverLibrary\obj\Debug\net6.0\ref\DriverLibrary.dll

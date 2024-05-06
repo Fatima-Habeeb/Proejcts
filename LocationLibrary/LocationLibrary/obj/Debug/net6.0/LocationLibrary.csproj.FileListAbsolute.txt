@@ -1,0 +1,12 @@
+D:\PUCIT\WEB\LocationLibrary\LocationLibrary\bin\Debug\net6.0\LocationLibrary.deps.json
+D:\PUCIT\WEB\LocationLibrary\LocationLibrary\bin\Debug\net6.0\LocationLibrary.dll
+D:\PUCIT\WEB\LocationLibrary\LocationLibrary\bin\Debug\net6.0\LocationLibrary.pdb
+D:\PUCIT\WEB\LocationLibrary\LocationLibrary\obj\Debug\net6.0\LocationLibrary.csproj.AssemblyReference.cache
+D:\PUCIT\WEB\LocationLibrary\LocationLibrary\obj\Debug\net6.0\LocationLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\PUCIT\WEB\LocationLibrary\LocationLibrary\obj\Debug\net6.0\LocationLibrary.AssemblyInfoInputs.cache
+D:\PUCIT\WEB\LocationLibrary\LocationLibrary\obj\Debug\net6.0\LocationLibrary.AssemblyInfo.cs
+D:\PUCIT\WEB\LocationLibrary\LocationLibrary\obj\Debug\net6.0\LocationLibrary.csproj.CoreCompileInputs.cache
+D:\PUCIT\WEB\LocationLibrary\LocationLibrary\obj\Debug\net6.0\LocationLibrary.dll
+D:\PUCIT\WEB\LocationLibrary\LocationLibrary\obj\Debug\net6.0\refint\LocationLibrary.dll
+D:\PUCIT\WEB\LocationLibrary\LocationLibrary\obj\Debug\net6.0\LocationLibrary.pdb
+D:\PUCIT\WEB\LocationLibrary\LocationLibrary\obj\Debug\net6.0\ref\LocationLibrary.dll
